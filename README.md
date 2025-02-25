@@ -99,4 +99,3 @@ This is a Job Portal API built with Node.js, Express, and MongoDB. The API allow
 - **URL:** `/jobs/delete/:id`
 - **Method:** `DELETE`
 
-## Project Structure

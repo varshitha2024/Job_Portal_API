@@ -1,4 +1,4 @@
-const jobs = require('./Schema/job-schema');
+const jobs = require('../Schema/job-schema');
  
 const Current_JobPostings = async(req,res)=>{
     try{

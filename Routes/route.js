@@ -3,7 +3,7 @@ const { Current_JobPostings,
     SpecificJobPosting,
     PostNewJob,
     UpdateJob,
-    deleteJob} = require('./Controller/dbcontroller')
+    deleteJob} = require('../Controller/dbcontroller')
 const jobRouter = express.Router()
 
 

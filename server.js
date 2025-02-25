@@ -7,6 +7,6 @@ DatabaseConnection();
 
 app.use(express.json())
 app.use('/jobs',jobRouter)
-app.listen(process.env.PORT,()=>{
+app.listen(process.env.PORT || 3000,()=>{
     console.log("server listening")
 })

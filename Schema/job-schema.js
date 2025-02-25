@@ -9,7 +9,7 @@ const JobSchema = new mongoose.Schema({
   Type: {
     type : String,
     enum : ["FullTime","Contract","InternShip","PartTime"],
-    default : FullTime
+    default : "FullTime"
   },
   Experience: {
     type : Number,
